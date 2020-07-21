@@ -49,7 +49,7 @@ class FancyFlower {
       rect(this.x - 30, this.y - this.size - 50, this.bloomSize, this.bloomSize);
 
       fill("yellow");
-      triangle(this.x + 30, this.y - this.size - 10, this.x - 30, this.y - this.size, this.x, this.y - this.size + 20)
+      triangle(this.x + 30, this.y - this.size - 20, this.x - 30, this.y - this.size - 20 , this.x, this.y - this.size - 50)
     }
   }
 }
